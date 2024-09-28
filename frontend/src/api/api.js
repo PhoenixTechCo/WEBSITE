@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 // Base API URL
-const API_URL = 'http://localhost:8000/api'; // Make sure this matches your backend URL
+const API_URL = 'http://localhost:5000/api';
 
 // Fetch all services
 export const getServices = async () => {
